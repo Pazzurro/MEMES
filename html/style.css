@@ -1,0 +1,47 @@
+.header
+{
+    text-align: center;
+    background-color: #5f2d96;
+    color: white;
+    padding: 20px;
+}
+
+.menu
+{
+    float: left;
+    width: 25%;
+    background-color: #3e1d63;
+    color: white;
+    text-align: center;
+}
+
+.menuButton
+{
+    background-color: #56288a;
+    color: white;
+    text-align: center;
+    padding: 10%;
+}
+
+.menuButton:hover
+{
+    background-color: white;
+    color: black;
+}
+
+
+.memes
+{
+    float: left;
+    width: 75%;
+    background-color: #b2b2b2;
+    color: white;
+    text-align: center;
+}
+
+
+.memeImage
+{
+    height: 300px;
+}
+
