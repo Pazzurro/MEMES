@@ -1,0 +1,61 @@
+.header{
+    text-align: left;
+    color: rebeccapurple;
+    height: 10%;
+    width: 100%;
+    float: left;
+}
+
+.date_title{
+    height: 5%;
+    width: 100%;
+    float: left;
+}
+
+.date{
+    width: 50%;
+    height: 100;
+    text-align: center;
+    float: left;
+}
+
+.title{
+    width: 50%;
+    height: 100;
+    text-align: center;
+    float: left;
+}
+
+.menu{
+    font-family: Arial;
+}
+
+.meme{
+    width: 50%;
+    height: 35%;
+    float: left;
+}
+
+.where_meme{
+    height: 35%;
+    width: 25%;
+    background-color: brown;
+    float: left;
+}
+
+
+.pages{
+    text-align: center;
+    color: rebeccapurple;
+    height: 15%;
+    width: 100%;
+    float: left;
+}
+
+.meme_1{
+    text-align: center;
+    border: 1px solid black;
+    float: left;
+    width: 100%;
+    height: 100%;
+}
