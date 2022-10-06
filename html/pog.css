@@ -30,6 +30,24 @@
 }
 
 
+.footer
+{
+    clear: both;
+    text-align: center;
+    padding: 2%;
+}
+
+.pageButton
+{
+    background-color: #56288a;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+}
+
+
+
+
 .memes
 {
     float: left;
@@ -39,9 +57,28 @@
     text-align: center;
 }
 
+.memeDiv
+{
+    padding-top: 5%;
+    height: 50%;
+}
 
 .memeImage
 {
-    height: 300px;
+    width: 80%;
+}
+
+.memeTitle
+{
+    text-align: left;
+    color: black;
+    margin-left: 5%;
+}
+
+.memeLike
+{
+    font-size: 20px;
+    text-align: left;
+    color: black;
 }
 

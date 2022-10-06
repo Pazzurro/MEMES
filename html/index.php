@@ -18,7 +18,7 @@
     <head>
         
         <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="pog.css">
         <title>Memy</title>
         
         
@@ -49,8 +49,26 @@
                         while($row = $result->fetch_array())
                         {
                             echo '
-                                <div class="memeImage">
-                                    <img src=meme_Images/"' .$row["title"]. '".png"
+                                <div class="memeDiv">
+                                
+                                    <div class="memeTitle">
+                                        <h1 style"text-align: left">Tytuł: ' .$row["title"]. '</h1>
+                                    </div>
+                                    
+                                    <div>
+                                        <span class="memeLike">Lajki: ' .$row["likes"]. '</span> 
+                                        
+                                        <br>
+                                        
+                                        <span class="memeLike">Stworzono: ' .$row["created_at"]. '</span>
+                                    </div>
+                                    
+                                    
+                                    <div >
+                                        <img class="memeImage" src="meme_Images/' .$row["file"]. '.png">
+                                    </div>
+                                    
+                                    <hr>
                                 </div>
                             ';
                         }
@@ -61,11 +79,9 @@
             
         </div>
         
-        
-        
-        <!-- trza zrobić php tutej, ale nie działa css -->
-        
-        
+        <div class="footer">
+            <button class="pageButton">Następna strona</button>
+        </div>
         
         
     </body>
