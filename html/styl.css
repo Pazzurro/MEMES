@@ -52,6 +52,7 @@
 {
     float: left;
     width: 75%;
+    height: 100%;
     background-color: #b2b2b2;
     color: white;
     text-align: center;
@@ -81,4 +82,42 @@
     text-align: left;
     color: black;
 }
+
+
+.comments
+{
+    width: 100%;
+    height: 100%;
+    background-color: #b2b2b2;
+    color: white;
+    text-align: center;
+}
+
+.commentsText
+{
+    width: 100%;
+    height: 100%;
+    background-color: #b2b2b2;
+    color: black;
+    text-align: left;
+}
+
+.commentsContent
+{
+    width: 100%;
+    margin-left: 5%;
+    color: black;
+    text-align: left;
+    font-size: 20;
+}
+
+.commentsAutor
+{
+    width: 100%;
+    margin-left: 2%;
+    color: black;
+    text-align: left;
+    font-size: 30;
+}
+
 

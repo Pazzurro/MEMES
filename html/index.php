@@ -9,7 +9,7 @@
     $page = 1;
     $limit = 10;
     $offset = ($page * $limit) - $limit;
-    $sql ="SELECT `file`, `likes`, `title`, `created_at` FROM memes limit $limit offset $offset ";     
+    $sql ="SELECT `id`, `file`, `likes`, `title`, `created_at` FROM memes limit $limit offset $offset ";     
 ?>
 
 
@@ -18,7 +18,7 @@
     <head>
         
         <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="pog.css">
+        <link rel="stylesheet" type="text/css" href="styl.css">
         <title>Memy</title>
         
         
@@ -26,7 +26,7 @@
     <body>
         
         <div class="header">
-            <h2>MEMY</h2>
+            <a href="index.php" style="color: white; text-decoration: none"><h2>MEMY</h2></a>
         </div>
         
         <div>
@@ -64,9 +64,8 @@
                                     </div>
                                     
                                     
-                                    <div >
-                                        <img class="memeImage" src="meme_Images/' .$row["file"]. '.png">
-                                    </div>
+                                    <img class="memeImage" onclick="openPage('.$row["id"].')" src="meme_Images/' .$row["file"]. '.png">
+                                    
                                     
                                     <hr>
                                 </div>
@@ -82,6 +81,15 @@
         <div class="footer">
             <button class="pageButton">Następna strona</button>
         </div>
+        
+        <script>
+            
+            function openPage(meme_id)
+            {
+                window.location.href = "comments.php?memeID=" + meme_id;
+            }
+                
+        </script>
         
         
     </body>
